@@ -1,0 +1,18 @@
+# Ignore user content and generated PDFs
+
+content.txt
+CSI Template.pdf
+Template.pdf
+output.pdf
+
+# Virtual environments
+pdf/
+venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Editor/temp files
+.DS_Store
+Thumbs.db
