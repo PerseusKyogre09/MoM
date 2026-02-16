@@ -10,11 +10,11 @@ Small utility to write Meeting Minutes (MoMs) into an existing PDF template whil
    - or cmd: pdf\Scripts\activate.bat
 
 2. Install dependencies:
-   - pip install -r pdf_mom_writer\requirements.txt
+   - pip install -r requirements.txt
 
 3. Prepare files in the project root:
    - `Template.pdf` — your template (keeps header/footer)
-   - `pdf_mom_writer/content.txt` — the MoM you will write
+   - `content.txt` — the MoM you will write
 
 4. Generate PDF (defaults):
    - python fill.py
